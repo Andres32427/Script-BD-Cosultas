@@ -13,7 +13,7 @@ SET motivo_consulta = 'Seguimiento programado'
 WHERE id BETWEEN 5 AND 10;
 
 UPDATE cita
-SET motivo_consulta = 'cita medicina general'
+SET motivo_consulta = 'control de rutina'
 WHERE motivo_consulta = 'revision mensual';
 
 UPDATE cita
