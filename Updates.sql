@@ -21,7 +21,7 @@ SET id_consultorio = 1
 WHERE id_consultorio IS NULL;
 
 
--- Consulta Tabla Consulta
+-- Consulta Tabla Consultorio
 
 UPDATE consultorio
 SET estado = 'inactivo'
