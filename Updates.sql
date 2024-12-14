@@ -61,5 +61,6 @@ UPDATE departamento
 SET nombre_departamento = 'Zona Caribe'
 WHERE nombre_departamento IN ('ATLÁNTICO', 'BOLÍVAR', 'CÓRDOBA', 'LA GUAJIRA', 'MAGDALENA', 'SUCRE');
 
-UPDATE departamento
-SET nombre_departamento = UPPER(nombre_departamento);
+UPDATE `departamento`
+SET `nombre_departamento` = 'VICHADA ACTUALIZADO'
+WHERE `id` = 99;
